@@ -1,14 +1,14 @@
 # PV Simulink Fault Scenario Models
 
-This repository contains MATLAB/Simulink R2025b photovoltaic fault scenario models for photovoltaic fault diagnosis studies.
+This repository contains MATLAB/Simulink R2025b photovoltaic fault scenario models used for photovoltaic fault diagnosis studies.
 
-The repository includes one healthy reference model and eleven fault scenario models, corresponding to diagnostic labels `F0` to `F11`. These models were used as scenario-specific photovoltaic simulation models in studies on photovoltaic fault diagnosis and in the development of a hybrid real-weather-driven photovoltaic fault diagnosis dataset.
+The repository includes one healthy reference model and eleven fault scenario models, corresponding to diagnostic labels `F0` to `F11`.
 
 ## Repository scope
 
-This repository is dedicated to the MATLAB/Simulink photovoltaic scenario models.
+This repository is dedicated only to the MATLAB/Simulink photovoltaic scenario models used in the framework of a Master 2 internship.
 
-It does not contain the complete hybrid real-weather-driven dataset generation workflow. The final workflow used to inject measured meteorological datasets, perform daily segmentation, define fixed severity templates, export `signals.csv` and `metadata.json` files, and run quality-control procedures was developed separately by Edgar Hernando Sepúlveda-Oviedo for the associated data article.
+The meteorological profiles used during the internship-related studies were synthetic meteorological profiles. This repository does not provide experimental field data, real-weather datasets, or a complete dataset generation workflow.
 
 ## Software requirements
 
@@ -88,19 +88,19 @@ or:
 open_system('pv_model_F4_partial_shading.slx')
 ```
 
-6. Configure the required input profiles and simulation parameters according to the intended study.
+6. Configure the required synthetic meteorological profiles and simulation parameters according to the intended study.
 
-## Authorship and context
+## Authorship and internship context
 
 The MATLAB/Simulink photovoltaic fault scenario models were developed and consolidated by Edgar Hernando Sepúlveda-Oviedo, Maître de conférences / Associate Professor.
 
-Selected models were used in preliminary internship-related tests by Miguel Angel Gonzalez Terceros Angel under simplified synthetic meteorological profiles, within an academic internship framework supervised by Edgar Hernando Sepúlveda-Oviedo, Maître de conférences / Associate Professor, and Stéphane Grieu, Professeur des universités / Full Professor.
+These models were used by Miguel Angel Gonzalez Terceros Angel during his Master 2 internship under simplified synthetic meteorological profiles.
 
-These preliminary synthetic-meteorology studies are distinct from the later hybrid real-weather-driven dataset generation workflow. The final workflow, including measured meteorological data injection, daily segmentation, fixed severity templates, metadata generation, quality-control procedures and data article preparation, was developed separately by Edgar Hernando Sepúlveda-Oviedo.
+The Master 2 internship was supervised by Edgar Hernando Sepúlveda-Oviedo, Maître de conférences / Associate Professor, and Stéphane Grieu, Professeur des universités / Full Professor.
 
-## Related preliminary works using synthetic meteorological profiles
+## Related works using synthetic meteorological profiles
 
-The MATLAB/Simulink photovoltaic fault scenario models released in this repository were used with synthetic meteorological profiles in the framework of the following preliminary works:
+The MATLAB/Simulink photovoltaic fault scenario models released in this repository were used with synthetic meteorological profiles in the framework of the following works:
 
 1. Miguel Angel Gonzalez Terceros Angel, Edgar Hernando Sepúlveda-Oviedo, Stéphane Grieu.  
    **Evaluating latent-space representations for photovoltaic fault diagnosis using dimensionality-reduction techniques.**  
@@ -122,39 +122,15 @@ The MATLAB/Simulink photovoltaic fault scenario models released in this reposito
    Journées Nationales du Photovoltaïque (JNPV 2026), Nov. 2026, Strasbourg, France.  
    HAL: `hal-05771405`.
 
-## Relationship with the hybrid real-weather-driven dataset
-
-The hybrid real-weather-driven dataset described in the associated Data in Brief article extends this preliminary modelling framework by replacing synthetic meteorological profiles with measured meteorological time series from open datasets.
-
-The later dataset generation workflow includes:
-
-- measured meteorological data injection;
-- real-day segmentation;
-- interpolation inside the measured time interval;
-- fixed severity templates;
-- scenario-wise simulation;
-- daily `signals.csv` files;
-- experiment-level `metadata.json` files;
-- dataset integrity verification;
-- quality-control reports.
-
-That real-weather-driven generation workflow is maintained separately from this model repository.
-
 ## How to cite
 
-If you use these models, please cite this repository and the associated data article when available.
+If you use these models, please cite this repository and the related work that is closest to your use case.
 
 Suggested repository citation:
 
 ```text
 E.H. Sepúlveda-Oviedo, PV Simulink Fault Scenario Models, GitHub repository, 2026.
 https://github.com/ehsepulvedao/pv-simulink-fault-scenario-models
-```
-
-Associated data article:
-
-```text
-E.H. Sepúlveda-Oviedo, A hybrid real-weather-driven and physics-based dataset for labelled photovoltaic fault diagnosis, Data in Brief, 2026. [To be completed after publication]
 ```
 
 ## License
