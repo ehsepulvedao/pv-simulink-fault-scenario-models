@@ -101,22 +101,22 @@ The MATLAB/Simulink photovoltaic fault scenario models released in this reposito
 1. Miguel Angel Gonzalez Terceros Angel, Edgar Hernando Sepúlveda-Oviedo, Stéphane Grieu.  
    **Evaluating latent-space representations for photovoltaic fault diagnosis using dimensionality-reduction techniques.**  
    3er Congreso de Ciencias Exactas e Ingenierías (ConCEI), Universidad Autónoma de Yucatán, Oct. 2026, Mérida, Yucatán, Mexico.  
-   HAL: `hal-05771459`.
+   HAL: [hal-05771459](https://hal.science/hal-05771459).
 
 2. Miguel Angel Gonzalez Terceros Angel, Edgar Hernando Sepúlveda-Oviedo, Stéphane Grieu.  
    **Event-based representation of photovoltaic degradation trajectories.**  
    3er Congreso de Ciencias Exactas e Ingenierías (ConCEI), Oct. 2026, Mérida, Yucatán, Mexico.  
-   HAL: `hal-05771445`.
+   HAL: [hal-05771445](https://hal.science/hal-05771445).
 
 3. Miguel Angel Gonzalez Terceros Angel, Edgar Hernando Sepúlveda-Oviedo, Stéphane Grieu.  
    **Benchmarking classical AI methods for photovoltaic fault diagnosis.**  
    3er Congreso de Ciencias Exactas e Ingenierías (ConCEI), Universidad Autónoma de Yucatán, Oct. 2026, Mérida, Yucatán, Mexico.  
-   HAL: `hal-05771431`.
+   HAL: [hal-05771431](https://hal.science/hal-05771431).
 
 4. Miguel Angel Gonzalez Terceros Angel, Edgar Hernando Sepúlveda-Oviedo, Stéphane Grieu.  
    **Represent Before Classifying: Frugal Physics-Informed Fusion for Multiclass Fault Diagnosis in Photovoltaic Systems.**  
    Journées Nationales du Photovoltaïque (JNPV 2026), Nov. 2026, Strasbourg, France.  
-   HAL: `hal-05771405`.
+   HAL: [hal-05771405](https://hal.science/hal-05771405).
 
 ## How to cite
 
