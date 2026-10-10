@@ -1,14 +1,14 @@
 # PV Simulink Fault Scenario Models
 
-This repository contains MATLAB/Simulink R2025b photovoltaic fault scenario models used for photovoltaic fault diagnosis studies.
+This repository contains MATLAB/Simulink R2025b photovoltaic fault scenario models for photovoltaic fault diagnosis studies.
 
 The repository includes one healthy reference model and eleven fault scenario models, corresponding to diagnostic labels `F0` to `F11`.
 
 ## Repository scope
 
-This repository is dedicated only to the MATLAB/Simulink photovoltaic scenario models used in the framework of a Master 2 internship.
+This repository is dedicated to MATLAB/Simulink photovoltaic scenario models and their common parameter file.
 
-The meteorological profiles used during the internship-related studies were synthetic meteorological profiles. This repository does not provide experimental field data, real-weather datasets, or a complete dataset generation workflow.
+It does not include complete experiment-specific scripts, generated data, post-processing routines or machine-learning pipelines.
 
 ## Software requirements
 
@@ -88,19 +88,15 @@ or:
 open_system('pv_model_F4_partial_shading.slx')
 ```
 
-6. Configure the required synthetic meteorological profiles and simulation parameters according to the intended study.
+6. Configure the required input profiles and simulation parameters according to the intended study.
 
-## Authorship and internship context
+## Authorship
 
 The MATLAB/Simulink photovoltaic fault scenario models were developed and consolidated by Edgar Hernando Sepúlveda-Oviedo, Maître de conférences / Associate Professor.
 
-These models were used by Miguel Angel Gonzalez Terceros Angel during his Master 2 internship under simplified synthetic meteorological profiles.
+## Related works
 
-The Master 2 internship was supervised by Edgar Hernando Sepúlveda-Oviedo, Maître de conférences / Associate Professor, and Stéphane Grieu, Professeur des universités / Full Professor.
-
-## Related works using synthetic meteorological profiles
-
-The MATLAB/Simulink photovoltaic fault scenario models released in this repository were used with synthetic meteorological profiles in the framework of the following works:
+The MATLAB/Simulink photovoltaic fault scenario models released in this repository have been used in photovoltaic fault diagnosis studies, including the following related works:
 
 1. Miguel Angel Gonzalez Terceros Angel, Edgar Hernando Sepúlveda-Oviedo, Stéphane Grieu.  
    **Evaluating latent-space representations for photovoltaic fault diagnosis using dimensionality-reduction techniques.**  
